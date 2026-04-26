@@ -1,0 +1,5 @@
+string A
+string B
+string C
+string D
+I am need a lot of money, pls
