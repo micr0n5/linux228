@@ -1,0 +1,31 @@
+irq/180-elan_i2 (997, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :      10546591.863885
+se.vruntime                                  :          4977.256622
+se.sum_exec_runtime                          :          9031.504007
+se.nr_migrations                             :                   10
+nr_switches                                  :               132040
+nr_voluntary_switches                        :               132034
+nr_involuntary_switches                      :                    6
+se.load.weight                               :              1048576
+se.avg.load_sum                              :                    0
+se.avg.runnable_sum                          :                    0
+se.avg.util_sum                              :                    0
+se.avg.load_avg                              :                    0
+se.avg.runnable_avg                          :                    0
+se.avg.util_avg                              :                    0
+se.avg.last_update_time                      :       10238909150208
+se.avg.util_est                              :                  310
+uclamp.min                                   :                 1024
+uclamp.max                                   :                 1024
+effective uclamp.min                         :                 1024
+effective uclamp.max                         :                 1024
+policy                                       :                    1
+prio                                         :                   49
+ext.enabled                                  :                    0
+clock-delta                                  :                   31
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0

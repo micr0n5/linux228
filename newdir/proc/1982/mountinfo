@@ -1,0 +1,3 @@
+738 722 0:25 / / rw,nosuid,nodev,noexec,relatime shared:740 master:12 - proc proc rw
+739 738 0:34 / /sys/fs/binfmt_misc rw,relatime shared:741 master:14 - autofs systemd-1 rw,fd=38,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=9408
+740 739 0:47 / /sys/fs/binfmt_misc rw,nosuid,nodev,noexec,relatime shared:742 master:189 - binfmt_misc binfmt_misc rw

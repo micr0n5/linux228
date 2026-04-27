@@ -33,3 +33,4 @@ cat 2.txt && echo "THE TEXT WAS READ" - при чтении файла 2.тхт 
 || - аналог условия if, выполняется при отрицательном результате
 
    
+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 token

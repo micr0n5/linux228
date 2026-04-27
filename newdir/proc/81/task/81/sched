@@ -1,0 +1,31 @@
+irq/9-acpi (81, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :      10541391.454156
+se.vruntime                                  :            44.322316
+se.sum_exec_runtime                          :          2395.875428
+se.nr_migrations                             :                    1
+nr_switches                                  :                13336
+nr_voluntary_switches                        :                13332
+nr_involuntary_switches                      :                    4
+se.load.weight                               :              1048576
+se.avg.load_sum                              :                47216
+se.avg.runnable_sum                          :              7650716
+se.avg.util_sum                              :              7650716
+se.avg.load_avg                              :                 1023
+se.avg.runnable_avg                          :                  162
+se.avg.util_avg                              :                  162
+se.avg.last_update_time                      :            253284352
+se.avg.util_est                              :                  162
+uclamp.min                                   :                 1024
+uclamp.max                                   :                 1024
+effective uclamp.min                         :                 1024
+effective uclamp.max                         :                 1024
+policy                                       :                    1
+prio                                         :                   49
+ext.enabled                                  :                    0
+clock-delta                                  :                   26
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0

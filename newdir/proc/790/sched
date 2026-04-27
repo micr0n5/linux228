@@ -1,0 +1,31 @@
+irq/177-iwlwifi (790, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :      10559387.026911
+se.vruntime                                  :          3226.164216
+se.sum_exec_runtime                          :           742.159692
+se.nr_migrations                             :                   13
+nr_switches                                  :                15966
+nr_voluntary_switches                        :                15961
+nr_involuntary_switches                      :                    5
+se.load.weight                               :              1048576
+se.avg.load_sum                              :                    0
+se.avg.runnable_sum                          :                    0
+se.avg.util_sum                              :                    0
+se.avg.load_avg                              :                    0
+se.avg.runnable_avg                          :                    0
+se.avg.util_avg                              :                    0
+se.avg.last_update_time                      :        8814468498432
+se.avg.util_est                              :                  175
+uclamp.min                                   :                 1024
+uclamp.max                                   :                 1024
+effective uclamp.min                         :                 1024
+effective uclamp.max                         :                 1024
+policy                                       :                    1
+prio                                         :                   49
+ext.enabled                                  :                    0
+clock-delta                                  :                   30
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0

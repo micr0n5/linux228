@@ -1,0 +1,31 @@
+watchdogd (94, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :           475.291758
+se.vruntime                                  :            23.982541
+se.sum_exec_runtime                          :             0.826723
+se.nr_migrations                             :                    0
+nr_switches                                  :                    2
+nr_voluntary_switches                        :                    2
+nr_involuntary_switches                      :                    0
+se.load.weight                               :              1048576
+se.avg.load_sum                              :                46565
+se.avg.runnable_sum                          :             24028343
+se.avg.util_sum                              :             24028343
+se.avg.load_avg                              :                 1014
+se.avg.runnable_avg                          :                  511
+se.avg.util_avg                              :                  511
+se.avg.last_update_time                      :            475291648
+se.avg.util_est                              :                  512
+uclamp.min                                   :                 1024
+uclamp.max                                   :                 1024
+effective uclamp.min                         :                 1024
+effective uclamp.max                         :                 1024
+policy                                       :                    1
+prio                                         :                   49
+ext.enabled                                  :                    0
+clock-delta                                  :                   42
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0

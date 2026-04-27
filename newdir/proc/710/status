@@ -1,0 +1,61 @@
+Name:	systemd-oomd
+Umask:	0022
+State:	S (sleeping)
+Tgid:	710
+Ngid:	0
+Pid:	710
+PPid:	1
+TracerPid:	0
+Uid:	986	986	986	986
+Gid:	986	986	986	986
+FDSize:	128
+Groups:	986 
+NStgid:	710
+NSpid:	710
+NSpgid:	710
+NSsid:	710
+Kthread:	0
+VmPeak:	   16936 kB
+VmSize:	   16804 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	    7440 kB
+VmRSS:	    7440 kB
+RssAnon:	    1048 kB
+RssFile:	    6392 kB
+RssShmem:	       0 kB
+VmData:	     848 kB
+VmStk:	     132 kB
+VmExe:	      28 kB
+VmLib:	    9852 kB
+VmPTE:	      76 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	1
+SigQ:	0/27472
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000004003
+SigIgn:	0000000000001000
+SigCgt:	0000000000000000
+CapInh:	0000000000000022
+CapPrm:	0000000000000022
+CapEff:	0000000000000022
+CapBnd:	0000000000000022
+CapAmb:	0000000000000022
+NoNewPrivs:	1
+Seccomp:	2
+Seccomp_filters:	31
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ff
+Cpus_allowed_list:	0-7
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	8746
+nonvoluntary_ctxt_switches:	100
+x86_Thread_features:	
+x86_Thread_features_locked:	

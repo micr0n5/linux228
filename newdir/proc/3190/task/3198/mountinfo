@@ -1,0 +1,52 @@
+2472 30 259:6 / / ro,nosuid,relatime shared:1134 master:1 - ext4 /dev/nvme0n1p6 rw
+2548 2472 0:29 / /run rw,nosuid,nodev shared:1135 master:13 - tmpfs tmpfs rw,size=1415732k,nr_inodes=819200,mode=755,inode64
+2553 2548 0:29 /snapd/ns /run/snapd/ns rw,nosuid,nodev shared:1136 - tmpfs tmpfs rw,size=1415732k,nr_inodes=819200,mode=755,inode64
+2554 2472 7:1 / /snap/desktop-security-center/150 ro,nosuid,nodev,relatime shared:1139 master:125 - squashfs /dev/loop1 ro,errors=continue,threads=single
+2555 2472 7:0 / /snap/core24/1587 ro,nosuid,nodev,relatime shared:1140 master:129 - squashfs /dev/loop0 ro,errors=continue,threads=single
+2556 2472 7:2 / /snap/bare/5 ro,nosuid,nodev,relatime shared:1141 master:133 - squashfs /dev/loop2 ro,errors=continue,threads=single
+2557 2472 7:3 / /snap/desktop-security-center/151 ro,nosuid,nodev,relatime shared:1142 master:137 - squashfs /dev/loop3 ro,errors=continue,threads=single
+2558 2472 7:4 / /snap/firefox/8107 ro,nosuid,nodev,relatime shared:1143 master:141 - squashfs /dev/loop4 ro,errors=continue,threads=single
+2559 2472 7:5 / /snap/firmware-updater/226 ro,nosuid,nodev,relatime shared:1144 master:145 - squashfs /dev/loop5 ro,errors=continue,threads=single
+2560 2472 7:7 / /snap/gtk-common-themes/1535 ro,nosuid,nodev,relatime shared:1145 master:149 - squashfs /dev/loop7 ro,errors=continue,threads=single
+2561 2472 7:6 / /snap/gnome-46-2404/153 ro,nosuid,nodev,relatime shared:1146 master:153 - squashfs /dev/loop6 ro,errors=continue,threads=single
+2562 2472 7:9 / /snap/prompting-client/204 ro,nosuid,nodev,relatime shared:1147 master:157 - squashfs /dev/loop9 ro,errors=continue,threads=single
+2563 2472 7:8 / /snap/mesa-2404/1165 ro,nosuid,nodev,relatime shared:1148 master:161 - squashfs /dev/loop8 ro,errors=continue,threads=single
+2564 2472 7:10 / /snap/snap-store/1367 ro,nosuid,nodev,relatime shared:1149 master:165 - squashfs /dev/loop10 ro,errors=continue,threads=single
+2565 2472 0:46 / /tmp rw,nosuid,nodev shared:1150 master:169 - tmpfs tmpfs rw,nr_inodes=1048576,inode64,usrquota
+2566 2472 7:11 / /snap/snapd/26865 ro,nosuid,nodev,relatime shared:1152 master:173 - squashfs /dev/loop11 ro,errors=continue,threads=single
+2567 2472 7:12 / /snap/snapd-desktop-integration/361 ro,nosuid,nodev,relatime shared:1153 master:177 - squashfs /dev/loop12 ro,errors=continue,threads=single
+2568 2472 7:13 / /snap/thunderbird/1057 ro,nosuid,nodev,relatime shared:1154 master:181 - squashfs /dev/loop13 ro,errors=continue,threads=single
+2569 2472 259:1 / /boot/efi ro,nosuid,relatime shared:1155 master:185 - vfat /dev/nvme0n1p1 rw,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
+2570 2472 0:86 / /dev ro,nosuid,noexec shared:1156 - tmpfs tmpfs rw,size=4096k,nr_inodes=65536,mode=755,inode64
+2571 2570 0:28 / /dev/pts rw,nosuid,noexec,relatime shared:1157 master:4 - devpts devpts rw,gid=5,mode=600,ptmxmode=000
+2572 2570 0:27 / /dev/shm rw,nosuid,nodev shared:1158 master:3 - tmpfs tmpfs rw,inode64,usrquota
+2573 2570 0:23 / /dev/mqueue rw,nosuid,nodev,noexec,relatime shared:1159 master:18 - mqueue mqueue rw
+2574 2570 0:36 / /dev/hugepages rw,nosuid,nodev,relatime shared:1160 master:17 - hugetlbfs hugetlbfs rw,pagesize=2M
+2530 2472 0:29 /systemd/inaccessible/dir /home ro,nosuid,nodev,noexec shared:1161 master:13 - tmpfs tmpfs rw,size=1415732k,nr_inodes=819200,mode=755,inode64
+2531 2472 0:87 / /proc rw,nosuid,nodev,noexec,relatime shared:1162 - proc proc rw,hidepid=invisible
+2532 2531 0:47 / /proc/sys/fs/binfmt_misc rw,nosuid,nodev,noexec,relatime shared:1163 master:189 - binfmt_misc binfmt_misc rw
+2533 2531 0:29 /systemd/inaccessible/reg /proc/kmsg ro,nosuid,nodev,noexec shared:1164 master:13 - tmpfs tmpfs rw,size=1415732k,nr_inodes=819200,mode=755,inode64
+2534 2531 0:87 /sys/kernel/domainname /proc/sys/kernel/domainname ro,nosuid,nodev,noexec,relatime shared:1165 - proc proc rw,hidepid=invisible
+2545 2531 0:87 /sys/kernel/hostname /proc/sys/kernel/hostname ro,nosuid,nodev,noexec,relatime shared:1166 - proc proc rw,hidepid=invisible
+2546 2472 0:29 /systemd/inaccessible/dir /root ro,nosuid,nodev,noexec shared:1167 master:13 - tmpfs tmpfs rw,size=1415732k,nr_inodes=819200,mode=755,inode64
+2547 2548 0:29 /systemd/inaccessible/dir /run/credentials ro,nosuid,nodev,noexec shared:1137 master:13 - tmpfs tmpfs rw,size=1415732k,nr_inodes=819200,mode=755,inode64
+2549 2548 0:29 /systemd/inaccessible/dir /run/user ro,nosuid,nodev,noexec shared:1138 master:13 - tmpfs tmpfs rw,size=1415732k,nr_inodes=819200,mode=755,inode64
+2550 2472 0:88 / /sys rw,nosuid,nodev,noexec,relatime shared:1168 - sysfs sysfs rw
+2535 2550 0:32 / /sys/firmware/efi/efivars rw,nosuid,nodev,noexec,relatime shared:1169 master:9 - efivarfs efivarfs rw
+2536 2550 0:33 / /sys/fs/bpf rw,nosuid,nodev,noexec,relatime shared:1170 master:10 - bpf bpf rw,mode=700
+2537 2550 0:30 / /sys/fs/cgroup ro,nosuid,nodev,noexec,relatime shared:1171 master:7 - cgroup2 cgroup2 rw,nsdelegate,memory_recursiveprot,memory_hugetlb_accounting
+2538 2550 0:37 / /sys/fs/fuse/connections rw,nosuid,nodev,noexec,relatime shared:1173 master:20 - fusectl fusectl rw
+2539 2550 0:31 / /sys/fs/pstore rw,nosuid,nodev,noexec,relatime shared:1174 master:8 - pstore none rw
+2540 2550 0:21 / /sys/kernel/config rw,nosuid,nodev,noexec,relatime shared:1175 master:11 - configfs configfs rw
+2541 2550 0:9 / /sys/kernel/debug rw,nosuid,nodev,noexec,relatime shared:1176 master:16 - debugfs debugfs rw
+2542 2550 0:8 / /sys/kernel/security rw,nosuid,nodev,noexec,relatime shared:1177 master:6 - securityfs securityfs rw
+2543 2550 0:14 / /sys/kernel/tracing rw,nosuid,nodev,noexec,relatime shared:1178 master:19 - tracefs tracefs rw
+2544 2537 0:30 /system.slice/power-profiles-daemon.service/memory.pressure /sys/fs/cgroup/system.slice/power-profiles-daemon.service/memory.pressure rw,nosuid,nodev,noexec,relatime shared:1172 master:7 - cgroup2 cgroup2 rw,nsdelegate,memory_recursiveprot,memory_hugetlb_accounting
+2551 2565 0:46 /systemd-private-1393df9ff6e84c2ab23486a123c98867-power-profiles-daemon.service-7HQngy/tmp /tmp rw,nosuid,nodev shared:1151 master:169 - tmpfs tmpfs rw,nr_inodes=1048576,inode64,usrquota
+2552 2472 0:29 /systemd/inaccessible/dir /usr/lib/modules ro,nosuid,nodev,noexec shared:1179 master:13 - tmpfs tmpfs rw,size=1415732k,nr_inodes=819200,mode=755,inode64
+2575 2472 259:6 /var/lib/power-profiles-daemon /var/lib/power-profiles-daemon rw,nosuid,relatime shared:1180 master:1 - ext4 /dev/nvme0n1p6 rw
+2576 2472 259:6 /var/tmp/systemd-private-1393df9ff6e84c2ab23486a123c98867-power-profiles-daemon.service-AL9BWs/tmp /var/tmp rw,nosuid,relatime shared:1181 master:1 - ext4 /dev/nvme0n1p6 rw
+2217 2548 0:89 / /run/user/1000 rw,nosuid,nodev,relatime shared:1199 master:1182 - tmpfs tmpfs rw,size=707864k,nr_inodes=176966,mode=700,uid=1000,gid=1000,inode64
+2233 2217 0:90 / /run/user/1000/doc rw,nosuid,nodev,relatime shared:1213 master:1206 - fuse.portal portal rw,user_id=1000,group_id=1000
+6467 2217 0:98 / /run/user/1000/gvfs rw,nosuid,nodev,relatime shared:1237 master:1230 - fuse.gvfsd-fuse gvfsd-fuse rw,user_id=1000,group_id=1000
+10094 2472 7:14 / /snap/thunderbird/1073 ro,nodev,relatime shared:673 master:658 - squashfs /dev/loop14 ro,errors=continue,threads=single

@@ -1,0 +1,31 @@
+card1-crtc1 (1012, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :          4867.086697
+se.vruntime                                  :          5783.923344
+se.sum_exec_runtime                          :             0.016174
+se.nr_migrations                             :                    0
+nr_switches                                  :                    2
+nr_voluntary_switches                        :                    2
+nr_involuntary_switches                      :                    0
+se.load.weight                               :              1048576
+se.avg.load_sum                              :                46964
+se.avg.runnable_sum                          :               709632
+se.avg.util_sum                              :                 8192
+se.avg.load_avg                              :                 1021
+se.avg.runnable_avg                          :                   14
+se.avg.util_avg                              :                    0
+se.avg.last_update_time                      :           4862626816
+se.avg.util_est                              :                    0
+uclamp.min                                   :                 1024
+uclamp.max                                   :                 1024
+effective uclamp.min                         :                 1024
+effective uclamp.max                         :                 1024
+policy                                       :                    1
+prio                                         :                   49
+ext.enabled                                  :                    0
+clock-delta                                  :                   24
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0
